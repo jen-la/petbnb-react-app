@@ -20,7 +20,7 @@
   justify-content: center;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 900px) {
   .footer > div:first-child {
     justify-content: flex-start;
   }
@@ -39,7 +39,7 @@
   justify-content: center;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 900px) {
   .footer > div:last-child {
     justify-content: flex-end;
   }
