@@ -1,0 +1,62 @@
+.banner {
+  margin-bottom: 56px;
+  height: 40vh;
+  position: relative;
+}
+
+.banner_image {
+  display: none;
+}
+
+@media only screen and (min-width: 744px) {
+  .banner_image {
+    display: block;
+    background-image: url("https://smallpaws.com.au/wp-content/uploads/2018/07/Dogs-playing-at-small-paws-pet-hotel.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    margin-left: 25%;
+    border-radius: 8px;
+  }
+}
+
+.banner_info {
+  background-color: black;
+  color: white;
+  padding: 15vh 50px 50px 40px;
+  max-width: 300px;
+  height: 24vh;
+}
+
+.banner_info > h1 {
+  font-size: 28px;
+}
+
+.banner_search {
+  display: flex;
+  flex-direction: column;
+}
+
+/* when styling Material-UI components in css, need !important */
+.banner_searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
+.banner_info > button {
+  background-color: #ff7779;
+  color: white;
+  /* remove uppercase default set by Material-UI */
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner_info > button:hover {
+  background-color: white;
+  color: #8c3132;
+}

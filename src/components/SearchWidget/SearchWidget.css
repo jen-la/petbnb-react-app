@@ -1,0 +1,15 @@
+.search-widget {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 744px) {
+  .search-widget {
+    background-color: black;
+    height: 75%;
+    width: 40%;
+    position: absolute;
+    top: 12%;
+  }
+}
