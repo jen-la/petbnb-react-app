@@ -3,7 +3,7 @@ import { Context } from "../../context/AppContext";
 import Banner from "../../components/Banner/Banner";
 import Card from "../../components/Card/Card";
 // import PROPERTIES from "../../data/properties";
-import { Grid, Button } from "@material-ui/core";
+import { Grid, Button } from "@mui/material";
 import "./Home.css";
 
 function Home() {
@@ -42,6 +42,7 @@ function Home() {
         <button>Learn more</button>
       </div> */}
       <h2 className="home_heading">Just booked in Australia</h2>
+      {/* TO DO: Resolve load delay */}
       <Grid container spacing={2} className="home_section">
         {context.homes.map((property) => (
           <Grid item xs={12} sm={6} md={4} lg={3}>
@@ -59,7 +60,7 @@ function Home() {
       <section className="home_section">
         <h2>When are you travelling?</h2>
         <p>Add dates for updated pricing and availability</p>
-        <Button variant="contained" color="default" disableElevation>
+        <Button variant="contained" disableElevation>
           Add dates
         </Button>
       </section>

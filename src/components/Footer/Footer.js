@@ -1,10 +1,10 @@
 import React from "react";
 import "./Footer.css";
-import { Grid } from "@material-ui/core";
-import PetsIcon from "@material-ui/icons/Pets";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import FacebookIcon from "@material-ui/icons/Facebook";
+import { Grid } from "@mui/material";
+import PetsIcon from "@mui/icons-material/Pets";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
 
 function Footer() {
   return (

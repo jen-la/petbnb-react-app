@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import { Button } from '@material-ui/core';
-import PeopleIcon from '@material-ui/icons/People';
+import { Button } from '@mui/material';
+import PeopleIcon from '@mui/icons-material/People';
 import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
 import { DateRangePicker } from 'react-date-range';

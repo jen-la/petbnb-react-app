@@ -1,6 +1,6 @@
 import React from "react";
 import "./Card.css";
-import StarIcon from "@material-ui/icons/Star";
+import StarIcon from "@mui/icons-material/Star";
 
 // use destructuring assignment to specify props' properties as parameters
 const Card = ({ src, title, rating, description, price }) => {

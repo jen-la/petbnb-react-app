@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 // import DatePicker from "../DatePicker/DatePicker";
-// import { Button } from "@material-ui/core";
+// import { Button } from "@mui/material";
 import SearchWidget from "../SearchWidget/SearchWidget";
 import "./Banner.css";
 

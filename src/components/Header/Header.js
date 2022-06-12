@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
-import PetsIcon from "@material-ui/icons/Pets";
-// import SearchIcon from "@material-ui/icons/Search";
+import PetsIcon from "@mui/icons-material/Pets";
+// import SearchIcon from "@mui/icons-material/Search";
 import { Link } from "react-router-dom";
 
 const Header = () => {
