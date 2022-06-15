@@ -1,15 +1,37 @@
 .search-widget {
-  background-color: black;
-  height: 100%;
   width: 100%;
+}
+
+.search-widget h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.search-widget p {
+  font-size: 16px;
+  color: #484848;
+  margin-bottom: 8px;
+}
+
+.search-widget button {
+  margin-top: 8px !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  background-color: #ff5a5f !important;
+}
+
+.MuiTextField-root {
+  width: 100% !important;
 }
 
 @media only screen and (min-width: 744px) {
   .search-widget {
-    background-color: black;
-    height: 75%;
-    width: 40%;
+    width: 320px;
     position: absolute;
-    top: 12%;
+    top: 5%;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgb(0 0 0 / 0.2);
   }
 }

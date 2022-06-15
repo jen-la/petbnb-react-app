@@ -1,7 +1,12 @@
 .banner {
-  margin-bottom: 56px;
-  height: 40vh;
+  margin-bottom: 44px;
   position: relative;
+}
+
+@media only screen and (min-width: 744px) {
+  .banner {
+    height: 480px;
+  }
 }
 
 .banner_image {
@@ -15,7 +20,7 @@
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 35% 50%;
     height: 100%;
     margin-left: 25%;
     border-radius: 8px;
